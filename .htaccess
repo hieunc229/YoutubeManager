@@ -1,0 +1,8 @@
+RewriteEngine on 
+RewriteBase / 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(images|photos|css|js|robots\.txt)
+RewriteRule ^(.*)$ /index.php?url=$1 [QSA]
+RewriteRule ^(.*)/$ /index.php?url=$1 [QSA]
+ErrorDocument 404 /404.php

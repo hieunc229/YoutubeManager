@@ -1,0 +1,31 @@
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.nav-black-style {
+	background-color: #222222 !important;
+}
+.nav-black-style > div > div > a
+ { color: #ffffff !important; }
+
+ .nav-black-style > div > div > ul > li > a
+ {color: #b7c1c7 !important;}
+
+ .nav-black-style > div > div > ul > .active > a {
+ 	background-color: transparent !important;
+ 	font-weight: bold;
+ 	color: #fff !important;
+ }
+
+  .nav-black-style > div > div > ul > li > a:hover {
+  	background: #333 !important;
+  	color: #fff !important;
+  }
+
+  .inline-block { display: inline-block !important; }
+  .margin-10 { margin: 10px;}

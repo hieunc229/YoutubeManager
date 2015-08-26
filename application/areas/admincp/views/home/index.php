@@ -1,0 +1,1 @@
+<div class="alert alert-info">You're logged in as <?php echo $_SESSION['username']; ?></div>
